@@ -76,10 +76,10 @@ model and stops fetching.
 | dihard_third | 5.50 % | 259 |
 | dihard_second | 7.20 % | 171 |
 
-> **Not comparable to published DERs.** The reference RTTM supplies the speech
-> regions, so there is no missed-speech or false-alarm error, and overlap is
-> excluded. What remains is essentially speaker-confusion error
->  Compare variants under this protocol only.
+> The reference RTTM supplies the speechregions, so there is no missed-speech or false-alarm error, and overlap is excluded.
+> What remains is essentially speaker-confusion error, Compare variants under this protocol only.
+
+
 
 
 
