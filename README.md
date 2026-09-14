@@ -35,11 +35,11 @@ python vis_num_spk.py --embeddings_dir ./runs/baseline/<dataset>/embeddings \
 
 | File | Role |
 | :--- | :--- |
-| **`calculate_various_der.py`** | **Driver** — runs stages 1→3 per dataset, writes `der_summary.csv` |
-| `ecapa_inf_extractor.py` | Stage&nbsp;1 — oracle-VAD sliding-window ECAPA embeddings |
-| `cos+sc.py` | Stage&nbsp;2 — NME-SC clustering → hypothesis RTTMs |
-| `der.py` | Stage&nbsp;3 — DER via `pyannote.metrics` |
-| `vis_num_spk.py` | Diagnostic — eigengap plots |
+| **`calculate_various_der.py`** | **Driver** - runs stages 1→3 per dataset, writes `der_summary.csv` |
+| `ecapa_inf_extractor.py` | Stage&nbsp;1 - oracle-VAD sliding-window ECAPA embeddings |
+| `cos+sc.py` | Stage&nbsp;2 - NME-SC clustering → hypothesis RTTMs |
+| `der.py` | Stage&nbsp;3 - DER via `pyannote.metrics` |
+| `vis_num_spk.py` | Diagnostic - eigengap plots |
 
 
 ## Output
