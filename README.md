@@ -28,7 +28,7 @@ NME-SC diagnostic plots (separate from the driver):
 ```bash
 python vis_num_spk.py --embeddings_dir ./runs/baseline/<dataset>/embeddings \
                       --output_dir ./nmesc_plots
-
+```
 
 
 ## Files
