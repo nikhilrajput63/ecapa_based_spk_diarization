@@ -12,7 +12,6 @@ adapted from `tango4j/Auto-Tuning-Spectral-Clustering` and NVIDIA NeMo.
 ## Install
 
 ```bash
-pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu128
 pip install -r requirements.txt
 ```
 ## Usage
