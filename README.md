@@ -1,4 +1,4 @@
-# Baseline: ECAPA-TDNN + NME-SC Speaker Diarization
+# ECAPA-TDNN + NME-SC Speaker Diarization
 ```text
 audio + reference RTTM (oracle VAD)
   → ECAPA embeddings   1.5 s window / 0.75 s hop, 16 kHz
