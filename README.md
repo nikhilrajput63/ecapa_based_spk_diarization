@@ -63,7 +63,7 @@ model and stops fetching.
 
 ## Results
 
-`v1_output/`, oracle VAD, collar 0.25 s, overlap excluded:
+ oracle VAD, collar 0.25 s, overlap excluded:
 
 | Dataset | DER | Files |
 | --- | ---: | ---: |
