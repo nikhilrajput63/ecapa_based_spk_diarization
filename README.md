@@ -29,6 +29,7 @@ NME-SC diagnostic plots (separate from the driver):
 python vis_num_spk.py --embeddings_dir ./runs/baseline/<dataset>/embeddings \
                       --output_dir ./nmesc_plots
 
+
 ## Files
 
 | File | Role |
@@ -37,7 +38,8 @@ python vis_num_spk.py --embeddings_dir ./runs/baseline/<dataset>/embeddings \
 | `ecapa_inf_extractor.py` | Stage 1 — oracle-VAD sliding-window ECAPA embeddings |
 | `cos+sc.py` | Stage 2 — NME-SC clustering → hypothesis RTTMs |
 | `der.py` | Stage 3 — DER via `pyannote.metrics` |
-| `vis_num_spk.py` | Diagnostic — eigengap / affinity-pruning plots |
+| `vis_num_spk.py` | Diagnostic — eigengap plots |
+
 
 ## Output
 
